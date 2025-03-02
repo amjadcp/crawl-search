@@ -1,0 +1,4 @@
+{
+  "paths": ["/index.html", "/projects.html", "/achivements.html"],
+  "rootUrl": "http://localhost:5500"
+}
