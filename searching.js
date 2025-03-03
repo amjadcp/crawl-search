@@ -1,6 +1,6 @@
 const siteindex = require("./siteindex.json");
 
-const search = "YouTube";
+const search = process.argv[2] ?? "";
 
 const results = siteindex
   .filter((index) => index.content.toLowerCase().includes(search.toLocaleLowerCase()))

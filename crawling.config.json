@@ -1,4 +1,4 @@
 {
-  "paths": ["/index.html", "/projects.html", "/achivements.html"],
-  "rootUrl": "http://localhost:5500"
+  "rootUrl": "https://www.easybroker.co.in",
+  "paths": ["/", "/mess", "/about", "/contact"]
 }
