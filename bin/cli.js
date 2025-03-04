@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { program } = require('commander');
-const { crawl } = require('../lib/crawler.js');
+const { crawl } = require('../src/crawler.js');
 const fs = require('fs');
 
 program
