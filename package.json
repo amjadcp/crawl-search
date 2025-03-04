@@ -1,6 +1,6 @@
 {
   "name": "crawl-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI and React component for site search",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -26,8 +26,8 @@
     "puppeteer": "^24.3.0"
   },
   "peerDependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.26.4",
