@@ -1,6 +1,7 @@
 {
-  "name": "search",
+  "name": "crawl-search",
   "version": "1.0.0",
+  "description": "CLI and React component for site search",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "bin": {
@@ -10,9 +11,16 @@
     "build": "babel src --out-dir lib",
     "prepublish": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amjadcp/crawl-search.git"
+  },
   "author": "amjadcp",
   "license": "ISC",
-  "description": "CLI and React component for site search",
+  "bugs": {
+    "url": "https://github.com/amjadcp/crawl-search/issues"
+  },
+  "homepage": "https://github.com/amjadcp/crawl-search#readme",
   "dependencies": {
     "commander": "^13.1.0",
     "puppeteer": "^24.3.0"
